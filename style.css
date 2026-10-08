@@ -1,0 +1,163 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+   height: 100vh;
+   /* background: radial-gradient(circle, rgb(67, 39, 110), rgb(56, 47, 105), rgb(142, 125, 162)); */
+   background: radial-gradient(circle at 50% 20%, rgb(104, 93, 119), rgb(7, 3, 27), rgb(4, 0, 8));
+}
+span
+{
+    color: red;
+}
+#logo_img
+{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 520px;
+    height: 500px;
+    width: 500px;
+    filter: blur(4px);
+    z-index: 1;
+    
+}
+#morning_img
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 100px;
+}
+input
+{ 
+    height: 30px;
+    width: 230px;
+    border-radius: 10px;
+     box-shadow:  10px 10px 6px black;
+}
+#radio_t
+{
+    height: 20px;
+    width: 0px;
+    box-shadow: 0px 0px 0px;
+}
+#radio_f
+{
+    height: 20px;
+    width: 30px;
+    box-shadow: 0px 0px 0px;
+}
+#radio_m
+{
+    height: 20px;
+    width: 30px;
+    box-shadow: 0px 0px 0px;
+}
+#hobby
+{
+    height: 20px;
+    width: 30px;
+     box-shadow: 0px 0px 0px;
+}
+#time_box
+{
+    margin-top:-450px;
+    margin-left: 90px;
+     display: none;
+     color: white;
+}
+#form
+{
+    position: relative;
+    border:2px solid goldenrod;
+    height: 610px;
+    width: 1000px;
+    margin-left: 480px;
+    margin-top: 20px;
+    box-shadow:  10px 10px 6px black;
+    font-size: 21px;
+    z-index: 3;
+    display: none;
+    color: white;
+    padding-left: 10px;
+}
+#user_details
+{
+     border: 1px solid goldenrod;
+    margin-left: 700px;
+    margin-top: -560px;
+    color: black;
+    background-color:white;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    width: 200px;
+}
+#time
+{
+    width:308px;
+    text-align: center;
+      margin-bottom: 10PX;
+}
+#msg
+{
+    width:308px;
+    text-align: center;
+    margin-top: 7PX;
+}
+#captcha_button
+{
+    height: 38px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 245px;
+    background-color: rgb(221, 221, 28);
+}
+#captcha_show
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(250, 250, 40);
+    margin-left: 260px;
+    margin-top: 10px;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px;
+}
+#val
+{
+    margin-left: 900px;
+    z-index: 4;
+    position: relative;
+    margin-top: -430px;
+    font-size: 16px;
+    color: white;
+    display: none;
+}
+ #div_image
+{
+    border: 2px solid goldenrod; 
+    height: 300px; 
+    width: 330px;  
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+}   
+#file_input_type
+{
+    position: absolute;
+    top: 500px; 
+    z-index: 3; 
+    left: 1100px;
+ }  
+#submit
+{
+   position: absolute;
+    top: 600px; 
+    z-index: 3; 
+    left: 1150px;
+    border-radius: 10px;
+    font-size: 20px; 
+     width: 100px;
+    height: 60px;
+} 

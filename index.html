@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="javascript.js" ></script> 
+</head>
+<body onload="body_fun()">
+      <img id="logo_img" src="logoimg.webp">
+      <div id="time_box">
+            <h1 id="time"></h1>
+            <img id="morning_img" src="mornig.avif">
+            <h1 id="msg"></h1>
+      </div>
+        <h1 id="user_details">User Details</h1>       
+      <div id="form"><br>
+                Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" placeholder="Enter your name" onkeyup="name_validation()" ><span id="n_error"></span><br><br>
+
+          Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="age" onkeyup="age_validation()" placeholder="Enter your age" type="text" ><span id="age_error"></span><br><br>
+
+          Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="email" placeholder="abc1@gmail.com" type="text" onkeyup=" email_validation()"><span id="email_error"></span><br><br> 
+
+        Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="pass" placeholder="Enter your password" type="text" onkeyup="pass_validation()">
+        <i id="open_eye" class="fa-solid fa-eye" style="position: absolute;right:600px;color: black;margin-top: 4px;"></i>
+        <i id="close_eye" class="fa-solid fa-eye-slash"  style="position: absolute;right:600px;color: black;margin-top: 4px;"></i>
+        <span id="pass_error"></span><br><br>
+
+         Mobile No:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input id="mob" placeholder="Enter mobile nummber" type="text" maxlength="10" onkeyup="mob_validation()"><span id="mob_e"></span><br><br> 
+
+         Date of Birth:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="dob" type="date" onchange="dob_validation()">
+          <span id="dob_error"></span><br><br>
+         
+           Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input id="radio_m" type="radio" name="gender"  onchange="gender_validation()">Male
+           <input id="radio_f"  type="radio" name="gender" onchange="gender_validation()">Female<span id="gender_error"></span><br><br>
+
+         Hobbies:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input id="hobby" type="checkbox" onchange="hobby_error()" name="hobbyy">Dancing
+         <input id="hobby" type="checkbox" onchange="hobby_error()" name="hobbyy">Swimming
+         <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input id="hobby" type="checkbox" onchange="hobby_error()" name="hobbyy">Singing
+         <input id="hobby" type="checkbox" onchange="hobby_error()" name="hobbyy">Cricket&nbsp;&nbsp;<span id="hobby_error"></span> 
+
+            <!-- CREATE CAPTCHA---------------------------------   -->
+          <div id="captcha_box"><br>
+            Enter Captcha:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input onkeyup="captcha_error()" id="input_captcha" type="text" placeholder="&nbsp;&nbsp;&nbsp;enter captcha"><br>
+            <input id="captcha_show" type="text" readonly>            
+             <div  style="margin-top: -37px;margin-left: 365px;"><i onclick="(refresh_captcha())" class="fa fa-refresh"></i></div>
+             <div style="margin-top: -68px;margin-left: 440px;"><span id="captcha_error"></span></div>
+         </div>
+      </div>
+        <div id="val">
+        <h6 id="one">Atleast One Capital Letter</h6>
+        <h6 id="two">Atleast One Small Letter</h6>
+        <h6 id="three">Atleast One Special Character</h6>
+        <h6 id="four">Atleast One Digit</h6>
+        <h6 id="five">Atleast 8 Characters</h6>
+       </div>  
+       <div id="div_image"></div>
+                  <input type="file"  id="file_input_type" onchange="ufile_function(event)">
+                    <span id="ufile_show_msg" style="  position: absolute;top: 500px;z-index:3;left: 1350px;margin-top: 9px;"></span>
+      </div>
+       <button id="submit" disabled onclick="go_to_nextpage()" >Submit</button>   
+     
+</body>
+</html> 

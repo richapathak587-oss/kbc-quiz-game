@@ -1,0 +1,199 @@
+body
+{
+  background: radial-gradient(circle at 50% 20%, rgb(104, 93, 119), rgb(7, 3, 27), rgb(4, 0, 8));
+  overflow: hidden;
+  /* display: none; */
+}
+#que_box
+{
+  width: 900px;
+  height: 60px;
+  border: 2px solid goldenrod;
+  border-radius: 50px;
+  margin-left: 310px;
+  margin-top: 100px;
+  box-shadow: 20px 20px 40px black;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+  /* display: none; */
+}
+#A
+{
+  width: 442px;
+  height: 50px;
+  border: 2px solid  goldenrod;
+  border-radius: 50px;
+  margin-left: 310px;
+  margin-top: 20px;
+  box-shadow: 20px 20px 40px black;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+}
+#B
+{
+  width: 442px;
+  height: 50px;
+  border: 2px solid  goldenrod;
+  border-radius: 50px;
+  margin-left: 760px;
+  margin-top: -55px;
+  box-shadow: 20px 20px 40px black;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+    
+}
+#C
+{
+  width: 442px;
+  height: 50px;
+  border: 2px solid  goldenrod;
+  border-radius: 50px;
+  margin-left: 310px;
+  margin-top: 19px;
+  box-shadow: 20px 20px 40px black;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+}
+#D
+{
+  width: 442px;
+  height: 50px;
+  border: 2px solid  goldenrod;
+  border-radius: 50px;
+  margin-left: 760px;
+  margin-top: -55px;
+  box-shadow: 20px 20px 40px black;
+  color: white;
+  font-size: 27px;
+  text-align: center;
+}
+.price_pool
+{
+  width: 250px;
+  height: 30px;
+  border: 2px solid  goldenrod;
+  border-radius: 50px; 
+  position: relative;
+  left: 1230px;
+  top: -670px;
+  margin: 5px;
+  padding: 0px;
+  box-shadow: 10px 10px 10px black;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  /* display: none; */
+}
+#fifty_fifty
+{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -1140px;
+}
+#audience_pool
+{
+    width: 278px;
+  height: 200px;
+  position: relative;
+  top: -977px;
+  right: 244px;
+}
+#flip_question
+{
+   width: 210px;
+  height: 210px;
+  position: relative;
+  top: -798px;
+  right: 490px;
+
+}
+#half-circle {
+  width: 150px;
+  height: 70px;          /* half of width */
+  background: rgb(18, 1, 36);    /* fill color */
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border: 2px solid goldenrod;
+  position: relative;
+  top: -918px;
+  left: 675px;
+  box-shadow: 0px 0px 10px black;
+  color: goldenrod;
+  font-size: 45px;
+  text-align: center;
+}
+#Play
+{
+  /* background-color: yellow; */
+  width: 150px;
+  height: 35px;
+  border: 2px solid  goldenrod;
+  border-radius: 10px; 
+  position: relative;
+  top: -800px; 
+  left: 60px;
+  box-shadow: 10px 10px 10px black;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-size: 25px;
+}
+#Quit
+{
+  /* background-color: yellow; */
+  width: 150px;
+  height: 35px;
+  border: 2px solid  goldenrod;
+  border-radius: 10px; 
+  position: relative;
+  left: 1290px;
+  top: -785px;
+  box-shadow: 10px 10px 10px black;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-size: 25px;
+}
+#Next
+{
+    /* background-color: yellow; */
+  width: 150px;
+  height: 35px;
+  border: 2px solid  goldenrod;
+  border-radius: 10px; 
+  position: relative;
+  top: -820px;
+   left: 60px;
+  box-shadow: 10px 10px 10px black;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-size: 25px;
+}
+ #pool_box {
+   display: flex;
+   gap: 30px;
+   border: 2px solid white;
+   width: 600px;
+   height: 380px;
+   position: relative;
+   top: -1500px;
+   left: 450px;
+   display: none;
+    color: black;
+   align-items: flex-end; /* fixed at bottom */
+}
+.pool {
+   width: 10%;
+   background-color: goldenrod;
+   border: 2px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end; /* optional for text */
+   color: white;
+   font-size: 14px;
+   margin-left: 50px;
+   color: black;
+}

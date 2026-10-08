@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="third.css">
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="third.js"></script>
+   
+</head>
+<body>
+       <img id="logo" style="width: 350px;height: 350px;margin-left: 580px;margin-top: 30px;" src="logoimg.webp">
+       <div id="que_box"></div>
+        <div id="A" class="options" onclick="Write_answer(this)"></div>
+        <div id="B" class="options" onclick="Write_answer(this)"></div>
+        <div id="C" class="options" onclick="Write_answer(this)"></div>
+        <div id="D" class="options" onclick="Write_answer(this)"></div>
+        <div class="price_pool">7,00,00,000</div>
+        <div  class="price_pool">1,00,00,000</div>
+         <div  class="price_pool">75,00,000</div>
+         <div  class="price_pool">50,00,000</div>
+         <div  class="price_pool">25,00,000</div>
+         <div  class="price_pool">12,50,000</div>
+         <div  class="price_pool">6,40,000</div>
+         <div  class="price_pool">5,00,000</div>
+         <div  class="price_pool">3,20,000</div>
+         <div  class="price_pool">1,60,000</div>
+          <div  class="price_pool">1,00,000</div>
+          <div id="lifeline">
+          <img id="fifty_fifty" onclick="fifty_fifty()" src="ChatGPT Image Sep 1, 2025, 04_08_33 PM.png">
+          <img id="audience_pool" onclick="audiencePool()"  src="ChatGPT Image Sep 1, 2025, 04_11_46 PM.png">
+          <img id="flip_question"  onclick="flip_question()" src="ChatGPT Image Sep 1, 2025, 04_16_21 PM.png">
+          <div id="half-circle"></div>
+          </div>
+          <button id="Play" onclick="play_game()">Play</button><br>
+          <button id="Quit"  onclick="window.location.href='index.html'">Quit</button><br>
+          <button id="Next" onclick="next_question()"disabled>Next</button>
+          <div id="pool_box">
+            <div class="pool">A</div>
+            <div class="pool">B</div>
+            <div class="pool">C</div>
+            <div class="pool">D</div>
+          </div>
+          <audio id="clock" src="slow-cinematic-clock-ticking-357979.mp3" muted autoplay loop ></audio>     
+          <audio id="seven_crore" src="7_crore_meme_sound_kbc.mp3" muted autoplay loop></audio>
+</body>
+
+</html>
